@@ -34,3 +34,8 @@ getData((int) "12345ahjasjasdad23324hdja");
 function getData($name, $limit = '50', $page = '1') {
     echo $name; echo "\n"; echo $limit ; echo "\n"; echo $page; echo "\n";
 }
+
+$rate = "3.1415926";
+$exchange = "0.038";
+$amount = ROUND($rate / $exchange, 2);
+var_dump($amount);
